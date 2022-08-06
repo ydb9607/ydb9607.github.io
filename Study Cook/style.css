@@ -644,7 +644,6 @@ input[type=text_1]{
 .list_lecture{
   font-size: 25px;
   background-color: #e7e7e7;
-  /* padding: 20px 300px; */
+  padding: 20px 300px;
   display: flex;
-
 }
