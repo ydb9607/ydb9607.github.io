@@ -482,10 +482,10 @@ input[type=text_1]{
     text-decoration: none;
 }
 
-.menu a::before {
+/* .menu a::before {
     content: '>';
     display: inline-block;
-}
+} */
 
 .menu a:before:first-child{
     content: none;
