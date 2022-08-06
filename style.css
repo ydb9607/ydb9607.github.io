@@ -689,8 +689,8 @@ input[type=text_1]{
 }
 
 .chk_box input[type="checkbox"] { 
-    /* display: none; */
-    /* position: absolute; */
+    display: none;
+    position: absolute;
 }
 
 .check{
