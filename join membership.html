@@ -6,8 +6,7 @@
     <meta name="viewport" content="initial-scale=1, minimum-scale=1, maximum-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
-    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>   
     <title>Study Cook</title>  
 
       <style>
@@ -218,224 +217,103 @@
           <script src="script.js" type="text/javascript"></script>
           <script src="./script.js" type="text/javascript"></script>
 
-
-        <div class="popup" id="popup">
-            <div class="blanket"></div>
-            <div class="content">
-                <a href="./main.html"><img src="./css.img/logo.png" alt="logo" style="width:100px;"></a>
-              <form action="">
-                <div class="row">
-                  <div class="item">
-                    <input type="text" placeholder="아이디">
-                  </div>  
-                  <div class="item">  
-                    <input type="text" placeholder="비밀번호">
-                  </div>
-                </div>
-                <button class="signup" onclick="hidePopup();">로그인</button>
-                <button class="close" onclick="hidePopup();"></button>
-                <div class="login_wrap">
-                    <ui class="find_wrap">
-                        <li>
-                            <a target="_blank" href="#" class="find_text">회원가입</a>
-                        </li>
-                        <li>
-                            <a target="_blank" href="#" class="find_text">ID/PW찾기</a>
-                        </li>
-                    </ui>
-                </div>
-                <div class="login_link">
-                    <ul class="login_icon">
-                        <li class="social_naver">
-                            <a href="#">    
-                                <img src="css.img/naver.png" alt="네이버 로그인" style="width: 40px;">
-                            </a>
-                        </li>
-                        <li class="social_google">
-                            <a href="#">
-                                <img src="css.img/google.png" alt="구글 로그인" style="width: 40px;">
-                            </a>
-                        </li>
-                        <li class="social_kakao">
-                            <a href="#">    
-                                <img src="css.img/kakaotalk.png" alt="카카오톡 로그인" style="width: 40px;">
-                            <a href="#"></a>
-                        </li>
-                    </ul>
-                </div>
-              </form>
+        <!-- <section class="search_4">
+            <div class="recruit">
+                <h2>회원가입</h2>
+                <p>Study Cook에 오신걸 환영합니다!</p>
             </div>
-          </div>
-          
-          <script src="script.js" type="text/javascript"></script>
-          <script src="./script.js" type="text/javascript"></script>
+        </section>     -->
 
-        <section class="search">
-            <div class="content_2">
-                <div class="title_1">스터디쿡에서 성장을 도와드려요</div>
-            <div class="search_wrapper">
-                <input class="input e_search_input" type="text_2" placeholder="배우고 싶은 지식을 입력해보세요">
-                <a href="#">    
-                    <img src="css.img/Icon feather-search.png" class="icon2" alt="검색">
-                </a>
+        <section class="login-form">
+            <div class="recruit">
+                <h2>회원가입</h2>
+                <p>Study Cook에 오신걸 환영합니다!</p>
             </div>
+            <div class="login-content">
+                <form action="">
+                    <div class="int-area">
+                        <input type="text" name="name" id="name" autocomplete="off" required>
+                        <label for="id">이름</label>
+                    </div>
+                    <div class="int-area">
+                        <input type="text" name="nickname" id="nickname" autocomplete="off" required>
+                        <label for="id">닉네임</label>
+                    </div>
+                    <div class="int-area">
+                        <input type="text" name="id" id="id" autocomplete="off" required>
+                        <label for="id">아이디</label>
+                    </div>
+                    <div class="int-area">
+                        <input type="password" name="pw" id="pw" autocomplete="off" required>
+                        <label for="pw">비밀번호</label>
+                    </div>
+                    <div class="int-area">
+                        <input type="password" name="repw" id="repw" autocomplete="off" required>
+                        <label for="pw">비밀번호 재입력</label>
+                    </div>
+                    <div class="int-area">
+                        <input type="text" name="email" id="email" autocomplete="off" required>
+                        <label for="id">이메일</label>
+                    </div>
+                    <div class="int-area">
+                        <input type="text" name="affiliation" id="affiliation" autocomplete="off" required>
+                        <label for="id">소속</label>
+                    </div>
+                    <div class="btn-area">
+                        <button id="btn" onclick="location.href='id_completed.html'" type="submit">회원가입</button>
+                    </div>
+                    <div class="login_wrap">
+                        <ui class="find_wrap">
+                            <li>
+                                <a target="_blank" href="join membership.html" class="find_text">간편 회원가입</a>
+                            </li>
+                        </ui>
+                    </div>
+                    <div class="login_link">
+                        <ul class="login_icon">
+                            <li class="social_naver">
+                                <a href="#">    
+                                    <img src="css.img/naver.png" alt="네이버 로그인" style="width: 40px;">
+                                </a>
+                            </li>
+                            <li class="social_google">
+                                <a href="#">
+                                    <img src="css.img/google.png" alt="구글 로그인" style="width: 40px;">
+                                </a>
+                            </li>
+                            <li class="social_kakao">
+                                <a href="#">    
+                                    <img src="css.img/kakaotalk.png" alt="카카오톡 로그인" style="width: 40px;">
+                                <a href="#"></a>
+                            </li>
+                </form>
+            </div>
+            <!-- <div class="caption">
+                <a href="">Forgot Password?</a>
+                <a href="">회원가입</a>
+            </div> -->
+            <script>       
+                let id = $('#id');
+                let pw = $('#pw');
+                let btn = $('#btn');
+                
+                $(btn).on('click', function() {
+                    if($(id).val() == "") {
+                        $(id).next('label').addClass('warning');
+                        setTimeout(function() {
+                            $('label').removeClass('warning');
+                        }, 1500);
+                    }
+                    else if($(pw).val() == "") {
+                        $(pw).next('label').addClass('warning');
+                        setTimeout(function() {
+                            $('label').removeClass('warning');
+                        }, 1500);
+                    }
+                });
+            </script>        
         </section>
-        
-        <section class="tag-section">
-            <ul class="tag">
-                <li class="tag-item"><a href="#">#MVC</a></li>
-                <li class="tag-item"><a href="#">#Spring Boot</a></li>
-                <li class="tag-item"><a href="#">#Back-End</a></li>
-                <li class="tag-item"><a href="#">#JPA</a></li>
-                <li class="tag-item"><a href="#">#Front-End</a></li>
-                <li class="tag-item"><a href="#">#Python</a></li>
-                <li class="tag-item"><a href="#">#Java</a></li>
-                <li class="tag-item"><a href="#">#Spring</a></li>
-                <li class="tag-item"><a href="#">#게임개발</a></li>
-                <li class="tag-item"><a href="#">#javascript</a></li>
-            </ul>
-        </section>
-        
-        <div class="container_2" style="margin-top: 50px;">
-            <div class="row">
-                <div class="content_2">
-                    <div class="title_1">✨ 원하는 직업을 선택하세요 ✨</div>
-                </div>
-                <div class="col-md-4">
-                    <a href="job.html">
-                        <div class="details">
-                            <p>컴퓨터 하드웨어 기술자 및 연구원</p>
-                            <h2>컴퓨터하드웨어기술자 및 연구원</h2>
-                        </div>
-                    </a> 
-                    <div class="details">
-                        <p>응용 소프트웨어 개발자</p>
-                        <h2>응용소프트웨어개발자</h2>
-                    </div>
-                    <div class="details">
-                        <p>응용 소프트웨어 개발자</p>
-                        <h2>가상현실전문가</h2>
-                    </div>
-                    <div class="details">
-                        <p>응용 소프트웨어 개발자</p>
-                        <h2>게임프로그래머</h2>
-                    </div>
-                    <div class="details">
-                        <p>응용 소프트웨어 개발자</p>
-                        <h2>모바일앱개발자</h2>
-                    </div>
-                    <div class="details">
-                        <p>네트워크 시스템 개발자</p>
-                        <h2>네트워크시스템개발자</h2>
-                    </div>
-                    <div class="details">
-                        <p>통신·방송송출 장비 기사</p>
-                        <h2>통신장비기사</h2>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="container_2">
-            <div class="row">
-                <div class="col-md-4"> 
-                    <div class="details">
-                        <p>통신·방송송출 장비 기사</p>
-                        <h2>방송송출장비기사</h2>
-                    </div>
-                    <div class="details">
-                        <p>통신공학 기술자 및 연구원</p>
-                        <h2>통신기기·장비기술자</h2>
-                    </div>
-                    <div class="details">
-                        <p>통신공학 기술자 및 연구원</p>
-                        <h2>통신기술개발자</h2>
-                    </div>
-                    <div class="details">
-                        <p>통신공학 기술자 및 연구원</p>
-                        <h2>통신망운영기술자</h2>
-                    </div>
-                    <div class="details">
-                        <p>웹 개발자</p>
-                        <h2>웹 개발자</h2>
-                    </div>
-                    <div class="details">
-                        <p>정보시스템 운영자</p>
-                        <h2>정보시스템운영자</h2>
-                    </div>
-                    <div class="details">
-                        <p>정보시스템 운영자</p>
-                        <h2>네트워크권리자</h2>
-                    </div>
-                    <div class="details">
-                        <p>정보시스템 운영자</p>
-                        <h2>IT기술지원전문가</h2>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="container_2">
-            <div class="row">
-                <div class="col-md-4"> 
-                    <div class="details">
-                        <p>컴퓨터시스템 전문가</p>
-                        <h2>컴퓨터시스템설계 및 분석가</h2>
-                    </div>
-                    <div class="details">
-                        <p>컴퓨터시스템 전문가</p>
-                        <h2>정보통신컨설턴트 및 감리원</h2>
-                    </div>
-                    <div class="details">
-                        <p>시스템 소프트웨어 개발자</p>
-                        <h2>시스템소프트웨어개발자</h2>
-                    </div>
-                    <div class="details">
-                        <p>기타 컴퓨터 전문가 및 소프트웨어 전문가</p>
-                        <h2>IT테스터 및 QA전문가(SW테스터)</h2>
-                    </div>
-                    <div class="details">
-                        <p>데이터 전문가</p>
-                        <h2>데이터베이스개발자</h2>
-                    </div>
-                    <div class="details">
-                        <p>데이터 전문가</p>
-                        <h2>빅데이터분석가</h2>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="container_3">
-            <div class="row">
-                <div class="content_2">
-                    <div class="title_1">✨ 추천 커리큘럼을 확인해보세요! ✨</div>
-                </div>
-                <div class="col-md-4"> 
-                    <div class="details">
-                        <p>주요과목</p>
-                        <h2>알고리즘</h2>
-                        <a href="#">    
-                            <img src="./css.img/Icon feather-search_white.png" class="icon" style= "width: 20px;" alt="검색">
-                        </a>
-                    </div>
-                    <div class="details">
-                        <p>기초과목</p>
-                        <h2>C언어</h2>
-                        <a href="#">    
-                            <img src="./css.img/Icon feather-search_white.png" class="icon" style= "width: 20px;" alt="검색">
-                        </a>
-                    </div>
-                    <div class="details">
-                        <p>기초과목</p>
-                        <h2>자바 프로그래밍</h2>
-                        <a href="#">    
-                            <img src="./css.img/Icon feather-search_white.png" class="icon" style= "width: 20px;" alt="검색">
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
+             
 
         <div class="footer">
             <ui class="footer_inner">
