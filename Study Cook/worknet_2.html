@@ -140,11 +140,11 @@
         </section>
 
         <section class="job_stage">    
-            <a href="./worknet.html"><p class="stage" style="background-color: #f67648;">
+            <a href="./worknet.html"><p class="stage">
                 1 단계<br><br>직업정보 알아보기
             </p></a>
             <img class="arrow_img" src="./css.img/Icon awesome-long-arrow-alt-right.png" style="width:80px; height: 60px;" alt="">
-            <a href="./worknet_2.html"><p class="stage">
+            <a href="./worknet_2.html"><p class="stage" style="background-color: #f67648;">
                 2 단계<br><br>관심 직업 비교하며 워나벨 직업 찾기
             </p></a>
             <img class="arrow_img" src="./css.img/Icon awesome-long-arrow-alt-right.png" style="width:80px; height: 60px;" alt="">
@@ -153,28 +153,164 @@
             </p></a>
         </section>
               
-        <section class="search_5">
-            <div class="content_6">
-                <a href="https://www.work.go.kr/consltJobCarpa/jobPsyExamNew/jobPsyExamYouthList.do" target="_blank">
-                    <span class="list_lecture">워크넷 간단 검사해보기 (청소년)</span></a>
-                <a href="https://www.work.go.kr/consltJobCarpa/jobPsyExamNew/jobPsyExamAdultList.do" target="_blank">
-                    <span class="list_lecture">워크넷 간단 검사해보기 (성인)</span></a> 
-                <a href="https://www.work.go.kr/consltJobCarpa/srch/jobRecommend/jobRecommend.do" target="_blank">
-                    <span class="list_lecture"  style="margin-bottom:20px;">워크넷 간단 검사해보기 (직무기반직업추천)</span></a> 
-                
-                <span class="#">워크넷 간단 검사해보기에 대한 설명--------------------------------------------------------------------
-                    <br>----------------------------------------------------------------------------------------------------
-                    <br>----------------------------------------------------------------------------------------------------
-                    <br>----------------------------------------------------------------------------------------------------
-                    <br>----------------------------------------------------------------------------------------------------
-                    <br>----------------------------------------------------------------------------------------------------
-                </span> 
+        <section class="search_7">
+            <div class="content_8">
+                <span class="stage_2"> ① 직업 선택시 고려해야 할 항목 선택    
+                    <br><span style="color: blue;">필수 항목(적성, 흥미, 가치관, 전망, 보수) + 선택(예 : 입직가능성, 워라벨, 안정성 등)</span>
+                    <br><span class="sub_text_stage">항목 아래 필수 / 선택 체크 박스</span>
+                    ② 선호하는 직업 입력  ▶  점수 산정  ▶  <span style="color:red;">선호 직업 우선 순위             
+        </section>
+
+        <section class="chart">
+            <div class="select">
+                <a href="#" style="background-color: green;">추가</a>
+                <a href="#" style="background-color: #cc5b32;">수정</a>
+                <a href="#" style="background-color: #c41d1d;">삭제</a>
+                <a href="#">계산하기</a>
             </div>
+                <table>
+                    <thead>
+                      <tr>
+                        <th style='width:20px'></th>
+                        <th class='backslash' style='width:200px'><div>자신의 평가 기준<br>(가중치)</div>선정된 직업들</th>
+                        <th>적성<br>(10)</th>
+                        <th>흥미<br>(20)</th>
+                        <th>가치관<br>(30)</th>
+                        <th>전망<br>(10)</th>
+                        <th>보수<br>(10)</th>
+                        <th>안전성<br>(10)<br><input type="checkbox" id="agree" checked="checked"></th>
+                        <th>입직<br>가능성<br>(10)<br><input type="checkbox" id="agree" checked="checked"></th>
+                        <th>워라벨<br>(10)<br><input type="checkbox" id="agree" checked="checked"></th>
+                        <th>계<br>(100)</th>
+                        <th>우선<br>순위</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td><input type="checkbox" id="agree" checked="checked"></td>
+                        <td>직업 A</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tbody>
+                </table>
         </section>
         
-        <div class="next">
-            <button class="next" onclick="location.href='./worknet_2.html'">다음</button>
-        </div>  
+        <section class="search_7">
+            <div class="content_8">
+                <span class="stage_2">
+                    ③ 선택한 직업(소분류/상세 직업)에 대해 상세 정보 탐색 가능 ▶ 다음 페이지 참조
+                </span>
+            <div class="next">
+                <button class="next" onclick="showPopup(false)">추가하기</button>
+            </div>
+                <div id="popup_2" class="hide">
+                  <div class="content_9">
+                    <section class="search_6">
+                        <div class="next">
+                            <button class="next" style="background-color: #fff; color: black;" onclick="closePopup()">닫기</button>
+                        </div>
+                        <img src="./css.img/2단계.png" style="width:1000px;" alt="">    
+                        <!-- <div class="menu2">
+                            <ul class="modal01">
+                                <li><a href="#">대메뉴1</a>
+                                    <ul class="modal02">
+                                        <li><a href="#">컴퓨터메인보드설계기술자</a>
+                                            <ul class="modal03">
+                                                <li><a href="#">상세 직업1</a></li>
+                                                <li><a href="#">상세 직업2</a></li>
+                                                <li><a href="#">상세 직업3</a></li>
+                                            </ul>
+                                        </li>
+
+                                        <li><a href="#">컴퓨터하드웨어설계기술자</a>
+                                            <ul class="modal03">
+                                                <li><a href="#">상세 직업1</a></li>
+                                                <li><a href="#">상세 직업2</a></li>
+                                                <li><a href="#">상세 직업3</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">휴대폰 하드웨어 개발자</a>
+                                            <ul class="modal03">
+                                                <li><a href="#">상세 직업1</a></li>
+                                                <li><a href="#">상세 직업2</a></li>
+                                                <li><a href="#">상세 직업3</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">컴퓨터 하드웨어 기술자 및 연구원</a>
+                                            <ul class="modal03">
+                                                <li><a href="#">상세 직업1</a></li>
+                                                <li><a href="#">상세 직업2</a></li>
+                                                <li><a href="#">상세 직업3</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">대메뉴2</a>
+                                    <ul class="modal02">
+                                        <li><a href="#">소메뉴1</a></li>
+                                        <li><a href="#">소메뉴2</a></li>
+                                        <li><a href="#">소메뉴3</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">대메뉴3</a>
+                                    <ul class="modal02">
+                                        <li><a href="#">소메뉴1</a></li>
+                                        <li><a href="#">소메뉴2</a></li>
+                                        <li><a href="#">소메뉴3</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">대메뉴4</a>
+                                    <ul class="modal02">
+                                        <li><a href="#">소메뉴1</a></li>
+                                        <li><a href="#">소메뉴2</a></li>
+                                        <li><a href="#">소메뉴3</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">대메뉴5</a>
+                                    <ul class="modal02">
+                                        <li><a href="#">소메뉴1</a></li>
+                                        <li><a href="#">소메뉴2</a></li>
+                                        <li><a href="#">소메뉴3</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">대메뉴6</a>
+                                    <ul class="modal02">
+                                        <li><a href="#">소메뉴1</a></li>
+                                        <li><a href="#">소메뉴2</a></li>
+                                        <li><a href="#">소메뉴3</a></li>
+                                    </ul>
+                                </li>
+                            </ul> -->
+                        </div>  
+                    <div class="next">
+                        <button class="next" onclick="closePopup()">추가하기</button>
+                    </div>
+                    
+                  </div>
+                </div>
+        </section>
+
+        <!-- <div class="popup_2" id="popup_2">
+            <div class="blanket_2"></div>
+            <div class="content_2">
+                    
+              <form action="login_form">
+                <div class="row">
+
+              </form>
+            </div>
+          </div> -->
+
+          
+
 
             <div class="footer">
                 <ui class="footer_inner">
